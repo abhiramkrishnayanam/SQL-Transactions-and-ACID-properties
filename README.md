@@ -25,7 +25,7 @@ BEGIN TRANSACTION;
 -- SQL operations
 COMMIT; -- To save changes
 ROLLBACK; -- To undo changes if needed
-
+```sql
 ## Overview
 In relational database management, transactions play a crucial role in managing and preserving data integrity. Each transaction is a sequence of one or more operations, treated as a single unit of work. To guarantee reliable transaction processing, databases adhere to the ACID properties, ensuring predictable and safe results.
 
