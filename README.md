@@ -16,6 +16,16 @@ This repository focuses on the concept of transactions in database systems and t
 - [Contributing](#contributing)
 - [License](#license)
 
+
+### Basic SQL Syntax for Transactions
+To start, commit, or rollback transactions, SQL provides the following commands:
+
+```sql
+BEGIN TRANSACTION;
+-- SQL operations
+COMMIT; -- To save changes
+ROLLBACK; -- To undo changes if needed
+
 ## Overview
 In relational database management, transactions play a crucial role in managing and preserving data integrity. Each transaction is a sequence of one or more operations, treated as a single unit of work. To guarantee reliable transaction processing, databases adhere to the ACID properties, ensuring predictable and safe results.
 
